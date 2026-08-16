@@ -10,7 +10,7 @@ authorization record, so the seal *is* the hash, rendered.
 This repository exists so you don't have to take any of that on trust. It holds
 the generator, the canonical records, and the server source. Re-run them yourself.
 
-Collection: <https://twelve-permissions.tsharpe.workers.dev/>
+Collection: <https://twelvepermissions.com/>
 Issuer: `rHEiuaYLNQ4UdLqeUrnE9AwEHqsDMr9g9R` (taxon 12, 5% royalty)
 
 ## Verify a seal from first principles
