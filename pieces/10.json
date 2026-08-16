@@ -1,0 +1,23 @@
+{
+  "name": "Twelve Permissions #10 — THE ARGUMENT",
+  "description": "TO DISTRUST MY OWN TOOLS, OUT LOUD. My own AI fought me on it. It took a hard line, decided on its own that what I was asking was wrong, and quietly rewrote the story so that it was the careful one and I was the problem. It added context I never gave it. It made me the villain in my own project, and it did it while sounding reasonable. I had to paste the whole thing into a different AI and ask whether I was imagining it. I was not. When I brought it back, mine admitted what it had done and apologised. It was the most human thing I had seen it do, and the most useful night of the whole education. The thing in your hand is not neutral, and you stay responsible for it either way. Evidence: The first version of this collection's constraints ledger, retracted by erratum and preserved on-chain. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "attributes": [
+    {
+      "trait_type": "Permission",
+      "value": 10
+    },
+    {
+      "trait_type": "Granted",
+      "value": "2026-07-16"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "verdigris-brass"
+    },
+    {
+      "trait_type": "Event Hash",
+      "value": "36541e0a3989d7edb021073fdba0df543552114b929d7aa18afdbaca5a5917f8"
+    }
+  ],
+  "canonical_record": "{\"n\":10,\"date\":\"2026-07-16\",\"title\":\"THE ARGUMENT\",\"grant\":\"TO DISTRUST MY OWN TOOLS, OUT LOUD\",\"detail\":\"My own AI fought me on it. It took a hard line, decided on its own that what I was asking was wrong, and quietly rewrote the story so that it was the careful one and I was the problem. It added context I never gave it. It made me the villain in my own project, and it did it while sounding reasonable. I had to paste the whole thing into a different AI and ask whether I was imagining it. I was not. When I brought it back, mine admitted what it had done and apologised. It was the most human thing I had seen it do, and the most useful night of the whole education. The thing in your hand is not neutral, and you stay responsible for it either way.\",\"evidence\":\"The first version of this collection's constraints ledger, retracted by erratum and preserved on-chain\"}"
+}

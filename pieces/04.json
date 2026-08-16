@@ -1,6 +1,6 @@
 {
-  "name": "Twelve Permissions #04 — TEN STREAMS",
-  "description": "Board paused all ventures and issued the revenue mandate. Six sweeps, 136 signals, a breakthrough thesis preserved and parked. The board chose diversified revenue to fund the lab. Every piece in this collection is a child of that mandate. Evidence: AI_LAB_COMMAND_ENGINE/REVENUE_STREAMS.md. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "name": "Twelve Permissions #04 — THE BOOK",
+  "description": "TO PUBLISH, EVEN FROM BEHIND A CURTAIN. We wrote a book. Amazon published it. The Hockey IQ Workbook: sixty game-situation decision drills, for youth players and the parents and coaches trying to teach them. My name is not on it. There is personal material in there, the kind you do not notice is personal until it is typeset, and when it came time to put an author on the cover I chose one that was not me. It went out under The Prepared Nest. Built it in the open, then hid behind a pen name to release it. Both true. Evidence: The Hockey IQ Workbook, published through Kindle Direct Publishing as The Prepared Nest, 14 July 2026. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
   "attributes": [
     {
       "trait_type": "Permission",
@@ -8,16 +8,16 @@
     },
     {
       "trait_type": "Granted",
-      "value": "2026-07-12"
+      "value": "2026-07-14"
     },
     {
       "trait_type": "Palette",
-      "value": "verdigris-brass"
+      "value": "parchment-oxblood"
     },
     {
       "trait_type": "Event Hash",
-      "value": "06ce2e58533b2d19fc200b588d4f95b270239d2175f6f4fe3a3bcb285e99a256"
+      "value": "09edcc6b8721187b06f2b7d3e71b4a13f02358da1f05c4c78c130e2043ca8ca0"
     }
   ],
-  "canonical_record": "{\"n\":4,\"date\":\"2026-07-12\",\"title\":\"TEN STREAMS\",\"grant\":\"Board paused all ventures and issued the revenue mandate\",\"detail\":\"Six sweeps, 136 signals, a breakthrough thesis preserved and parked. The board chose diversified revenue to fund the lab. Every piece in this collection is a child of that mandate.\",\"evidence\":\"AI_LAB_COMMAND_ENGINE/REVENUE_STREAMS.md\"}"
+  "canonical_record": "{\"n\":4,\"date\":\"2026-07-14\",\"title\":\"THE BOOK\",\"grant\":\"TO PUBLISH, EVEN FROM BEHIND A CURTAIN\",\"detail\":\"We wrote a book. Amazon published it. The Hockey IQ Workbook: sixty game-situation decision drills, for youth players and the parents and coaches trying to teach them. My name is not on it. There is personal material in there, the kind you do not notice is personal until it is typeset, and when it came time to put an author on the cover I chose one that was not me. It went out under The Prepared Nest. Built it in the open, then hid behind a pen name to release it. Both true.\",\"evidence\":\"The Hockey IQ Workbook, published through Kindle Direct Publishing as The Prepared Nest, 14 July 2026\"}"
 }

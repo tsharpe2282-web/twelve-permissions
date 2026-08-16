@@ -8,6 +8,11 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === '/mcp') return handleMcp(request, env, url.origin);
     if (url.pathname === '/x402' || url.pathname.startsWith('/x402/')) return handleX402(request, env, url);
+    // NOTE: /.well-known/xrp-ledger.toml needs CORS (the spec requires it), but a
+    // Worker route here would never run: static assets are served BEFORE the
+    // Worker for any path that exists as a file. Its headers are set in
+    // public/_headers instead. Verified empirically — the route added here first
+    // was dead code that returned no CORS header at all.
     return env.ASSETS.fetch(request);
   }
 };

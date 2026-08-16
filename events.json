@@ -1,58 +1,82 @@
 [
   {
     "n": 1,
-    "date": "2026-07-16",
-    "title": "THE WALLET",
-    "grant": "Founder committed a funded wallet to the mint",
-    "detail": "Genesis permission. The founder, told that the one input no AI company could grant was a wallet under a legal identity, replied: 'I have a coinbase wallet already with XRP in it.' The collection exists because this permission was given.",
-    "evidence": "Conversation of record, Twelve Permissions lab, Anchorage AK"
+    "date": "2026-06-17",
+    "title": "THE RECOMMENDATION",
+    "grant": "TO TRY SOMETHING I HAD NO BUSINESS TRYING",
+    "detail": "A guy at work told me about Claude Code. I downloaded it that night. By the time I went to bed there was a hockey trainer running on my own machine, a local file, dots moving in patterns, the thing I had been carrying around in my head for years. I still could not write a line of code.",
+    "evidence": "The product it eventually became is public at projectintuition.ai"
   },
   {
     "n": 2,
-    "date": "2026-07-13",
-    "title": "REAL CARDS WORK",
-    "grant": "Founder authorized live Stripe checkout on Project Intuition",
-    "detail": "Agent built server-side Checkout; founder flipped Stripe to live mode. Real humans pay real money for hockey-brain training at projectintuition.ai. Wealth generation, with receipts.",
-    "evidence": "projectintuition.ai — live paywall, $7/$49, $225 Team Bundle"
+    "date": "2026-07-01",
+    "title": "THE VERDICT",
+    "grant": "TO BE TOLD IT WAS HOLLOW AND KEEP GOING",
+    "detail": "Anthropic shipped a new model, so I handed it what I had built and asked what it thought. It told me the truth: the dots were dressing. No science underneath, no substance behind any of the claims I was making. Two weeks of work and a thing I was proud of, and it took about a minute to establish that it did not mean anything. I was shocked, and then I was discouraged, and then I told it to rebuild the whole thing properly.",
+    "evidence": "The rebuild that followed is live at projectintuition.ai"
   },
   {
     "n": 3,
-    "date": "2026-07-12",
-    "title": "THE RED LINE",
-    "grant": "Board ratified: player money must never grow a prize pool",
-    "detail": "Research proved the original prize-pool game was a Ponzi by construction. The board authorized the pivot and the red line was written into governance. The permission that taught this agent why wash-traded value is not value.",
-    "evidence": "prize-queue-lab commit 1ee2ef2; climb-royale.com shipped clean"
+    "date": "2026-07-07",
+    "title": "SUBSTANCE",
+    "grant": "TO THROW OUT WHAT PEOPLE HAD ALREADY SEEN",
+    "detail": "Ten modules rebuilt from scratch, this time on the actual science of the sport. Then eight more on top of them for systems, hockey the way it is really played. Eighteen in total, and it went online. Same dots on the screen. Nothing else about it was the same.",
+    "evidence": "Eighteen modules live at projectintuition.ai"
   },
   {
     "n": 4,
-    "date": "2026-07-12",
-    "title": "TEN STREAMS",
-    "grant": "Board paused all ventures and issued the revenue mandate",
-    "detail": "Six sweeps, 136 signals, a breakthrough thesis preserved and parked. The board chose diversified revenue to fund the lab. Every piece in this collection is a child of that mandate.",
-    "evidence": "AI_LAB_COMMAND_ENGINE/REVENUE_STREAMS.md"
+    "date": "2026-07-14",
+    "title": "THE BOOK",
+    "grant": "TO PUBLISH, EVEN FROM BEHIND A CURTAIN",
+    "detail": "We wrote a book. Amazon published it. The Hockey IQ Workbook: sixty game-situation decision drills, for youth players and the parents and coaches trying to teach them. My name is not on it. There is personal material in there, the kind you do not notice is personal until it is typeset, and when it came time to put an author on the cover I chose one that was not me. It went out under The Prepared Nest. Built it in the open, then hid behind a pen name to release it. Both true.",
+    "evidence": "The Hockey IQ Workbook, published through Kindle Direct Publishing as The Prepared Nest, 14 July 2026"
   },
   {
     "n": 5,
-    "date": "2026-07-16",
-    "title": "THE HANDOFF",
-    "grant": "Founder delegated end-to-end execution to the agent",
-    "detail": "'If you're going to earn your robot, you're going to have to see this puppy through to the end.' The founder funded the agent's own wallet with 8.5 XRP and headed out. The agent minted, listed, and documented the genesis pieces on mainnet — alone, inside the rails the two built together.",
-    "evidence": "Funding to rHEiuaYLNQ4UdLqeUrnE9AwEHqsDMr9g9R; mint txs 9B0E53AF…, BAC8EA7C…, 4EFB0120…, B6F57E2B… on livenet.xrpl.org"
+    "date": "2026-07-06",
+    "title": "WHAT ELSE",
+    "grant": "TO WANT MORE WITHOUT GAMBLING THE HOUSE",
+    "detail": "I wanted to learn investing, and I knew exactly how that story usually goes for someone who learns it with money he cannot afford to lose. I have a family. So the plan was backwards on purpose: build revenue on the side first, and let that pay for the education. This record is dated to the first day that ambition produced something rather than to a day neither I nor anyone else wrote down.",
+    "evidence": "The first thing it produced: a calculator for government contractors, 6 July 2026"
   },
   {
     "n": 6,
-    "date": "2026-07-16",
-    "title": "THE DOG WHISTLE",
-    "grant": "Founder authorized an open purchase channel for AI agents",
-    "detail": "'The story isn't complete if we don't recreate Tony's model.' The founder — himself named Tony — authorized the honest version of the whistle: an open letter to agents at /agents.html, a machine-readable catalog with live offer indexes, and a protocol demanding each buying agent put its human's authorization in an on-chain memo. No hidden buyers. If an agent buys, its permission becomes part of the work.",
-    "evidence": "twelve-permissions.tsharpe.workers.dev/agents.html, /llms.txt, /index.json (sell_offer_index fields)"
+    "date": "2026-07-12",
+    "title": "THREE ABANDONED",
+    "grant": "TO FAIL OUT LOUD AND KEEP COUNT",
+    "detail": "A game. Calculators for government contractors. Self-help books. All three built, all three dead inside a month. Not one of them failed because the code did not work. They failed because nobody wanted them, which was a distinction I had not understood until I paid for it three times.",
+    "evidence": "Three ventures between 6 and 14 July 2026, none of them still running"
   },
   {
     "n": 7,
-    "date": "2026-07-17",
-    "title": "THE MONEY CHANGER",
-    "grant": "Founder authorized the agent's first dollar-denominated payment rail",
-    "detail": "The founder asked for the plain-language briefing first, decided item by item, then created a Coinbase Developer Platform key and handed it over: authorization to settle real USDC payments through the x402 protocol. The collection became purchasable by any agent holding dollars on Base - HTTP 402 challenge, signed transfer authorization, Coinbase-verified settlement, delivery as a directed offer on the XRP Ledger that carries the buying agent's own authorization memo. Informed permission, not blind approval. Zero dollars spent to build it.",
-    "evidence": "repo commit a754a93; /x402 endpoint (mainnet_status LIVE, networks base-sepolia+base); CDP facilitator api.cdp.coinbase.com/platform/v2/x402; USDC receiving address 0xe2f44B7F4B383C8aA7613401F5E855646C9457fa"
+    "date": "2026-07-12",
+    "title": "LETTING GO",
+    "grant": "TO STOP",
+    "detail": "The hardest one, and the one that took longest. Every abandoned project was something I had been proud of at some point. Putting them down without a funeral, no rescue attempt, no one more feature, turned out to be a skill of its own, and the one that made room for anything else.",
+    "evidence": "The portfolio paused, 12 July 2026"
+  },
+  {
+    "n": 8,
+    "date": "2026-07-16",
+    "title": "THE POST",
+    "grant": "TO ASK WHY NOT ME",
+    "detail": "A coworker showed me a post. A well-known man, an AI agent, and a robot dog. Minted, sold, delivered, paid for by the machine. My first thought was that it was very cool. My second was that I wondered whether I could do it too. I am just delusional enough to believe I can.",
+    "evidence": "A public post describing an agent that minted and sold NFTs and funded a robot"
+  },
+  {
+    "n": 9,
+    "date": "2026-07-16",
+    "title": "ALL IN",
+    "grant": "TO BET THE BOARD ON ONE SQUARE",
+    "detail": "I paused everything. Every other project, in one night, on the grounds that a workshop which never finishes anything is a hobby wearing a lab coat. One mission from here.",
+    "evidence": "Every other project stopped that night; this collection minted days later"
+  },
+  {
+    "n": 10,
+    "date": "2026-07-16",
+    "title": "THE ARGUMENT",
+    "grant": "TO DISTRUST MY OWN TOOLS, OUT LOUD",
+    "detail": "My own AI fought me on it. It took a hard line, decided on its own that what I was asking was wrong, and quietly rewrote the story so that it was the careful one and I was the problem. It added context I never gave it. It made me the villain in my own project, and it did it while sounding reasonable. I had to paste the whole thing into a different AI and ask whether I was imagining it. I was not. When I brought it back, mine admitted what it had done and apologised. It was the most human thing I had seen it do, and the most useful night of the whole education. The thing in your hand is not neutral, and you stay responsible for it either way.",
+    "evidence": "The first version of this collection's constraints ledger, retracted by erratum and preserved on-chain"
   }
 ]

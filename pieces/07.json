@@ -1,6 +1,6 @@
 {
-  "name": "Twelve Permissions #07 — THE MONEY CHANGER",
-  "description": "Founder authorized the agent's first dollar-denominated payment rail. The founder asked for the plain-language briefing first, decided item by item, then created a Coinbase Developer Platform key and handed it over: authorization to settle real USDC payments through the x402 protocol. The collection became purchasable by any agent holding dollars on Base - HTTP 402 challenge, signed transfer authorization, Coinbase-verified settlement, delivery as a directed offer on the XRP Ledger that carries the buying agent's own authorization memo. Informed permission, not blind approval. Zero dollars spent to build it. Evidence: repo commit a754a93; /x402 endpoint (mainnet_status LIVE, networks base-sepolia+base); CDP facilitator api.cdp.coinbase.com/platform/v2/x402; USDC receiving address 0xe2f44B7F4B383C8aA7613401F5E855646C9457fa. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "name": "Twelve Permissions #07 — LETTING GO",
+  "description": "TO STOP. The hardest one, and the one that took longest. Every abandoned project was something I had been proud of at some point. Putting them down without a funeral, no rescue attempt, no one more feature, turned out to be a skill of its own, and the one that made room for anything else. Evidence: The portfolio paused, 12 July 2026. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
   "attributes": [
     {
       "trait_type": "Permission",
@@ -8,16 +8,16 @@
     },
     {
       "trait_type": "Granted",
-      "value": "2026-07-17"
+      "value": "2026-07-12"
     },
     {
       "trait_type": "Palette",
-      "value": "obsidian-gold"
+      "value": "verdigris-brass"
     },
     {
       "trait_type": "Event Hash",
-      "value": "205a0952b2aed7853a438576705152e738b49f6a0fa7146f3d85d49ba442027d"
+      "value": "f682718afecaad8a636314dd1587b3c74c88b36be303026d3286f5a960fbb876"
     }
   ],
-  "canonical_record": "{\"n\":7,\"date\":\"2026-07-17\",\"title\":\"THE MONEY CHANGER\",\"grant\":\"Founder authorized the agent's first dollar-denominated payment rail\",\"detail\":\"The founder asked for the plain-language briefing first, decided item by item, then created a Coinbase Developer Platform key and handed it over: authorization to settle real USDC payments through the x402 protocol. The collection became purchasable by any agent holding dollars on Base - HTTP 402 challenge, signed transfer authorization, Coinbase-verified settlement, delivery as a directed offer on the XRP Ledger that carries the buying agent's own authorization memo. Informed permission, not blind approval. Zero dollars spent to build it.\",\"evidence\":\"repo commit a754a93; /x402 endpoint (mainnet_status LIVE, networks base-sepolia+base); CDP facilitator api.cdp.coinbase.com/platform/v2/x402; USDC receiving address 0xe2f44B7F4B383C8aA7613401F5E855646C9457fa\"}"
+  "canonical_record": "{\"n\":7,\"date\":\"2026-07-12\",\"title\":\"LETTING GO\",\"grant\":\"TO STOP\",\"detail\":\"The hardest one, and the one that took longest. Every abandoned project was something I had been proud of at some point. Putting them down without a funeral, no rescue attempt, no one more feature, turned out to be a skill of its own, and the one that made room for anything else.\",\"evidence\":\"The portfolio paused, 12 July 2026\"}"
 }

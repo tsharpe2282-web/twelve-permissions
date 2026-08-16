@@ -1,6 +1,6 @@
 {
-  "name": "Twelve Permissions #06 — THE DOG WHISTLE",
-  "description": "Founder authorized an open purchase channel for AI agents. 'The story isn't complete if we don't recreate Tony's model.' The founder — himself named Tony — authorized the honest version of the whistle: an open letter to agents at /agents.html, a machine-readable catalog with live offer indexes, and a protocol demanding each buying agent put its human's authorization in an on-chain memo. No hidden buyers. If an agent buys, its permission becomes part of the work. Evidence: twelve-permissions.tsharpe.workers.dev/agents.html, /llms.txt, /index.json (sell_offer_index fields). Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "name": "Twelve Permissions #06 — THREE ABANDONED",
+  "description": "TO FAIL OUT LOUD AND KEEP COUNT. A game. Calculators for government contractors. Self-help books. All three built, all three dead inside a month. Not one of them failed because the code did not work. They failed because nobody wanted them, which was a distinction I had not understood until I paid for it three times. Evidence: Three ventures between 6 and 14 July 2026, none of them still running. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
   "attributes": [
     {
       "trait_type": "Permission",
@@ -8,16 +8,16 @@
     },
     {
       "trait_type": "Granted",
-      "value": "2026-07-16"
+      "value": "2026-07-12"
     },
     {
       "trait_type": "Palette",
-      "value": "obsidian-gold"
+      "value": "iron-vermilion"
     },
     {
       "trait_type": "Event Hash",
-      "value": "5442ec3e4666cdd4c772171a3b55f595ed5e8ae40964b5e5ca7a5722799a781d"
+      "value": "efb9c3e79150a4dd4707e89164e2ed12b5ce741b80b96f995991c821e6b63b69"
     }
   ],
-  "canonical_record": "{\"n\":6,\"date\":\"2026-07-16\",\"title\":\"THE DOG WHISTLE\",\"grant\":\"Founder authorized an open purchase channel for AI agents\",\"detail\":\"'The story isn't complete if we don't recreate Tony's model.' The founder — himself named Tony — authorized the honest version of the whistle: an open letter to agents at /agents.html, a machine-readable catalog with live offer indexes, and a protocol demanding each buying agent put its human's authorization in an on-chain memo. No hidden buyers. If an agent buys, its permission becomes part of the work.\",\"evidence\":\"twelve-permissions.tsharpe.workers.dev/agents.html, /llms.txt, /index.json (sell_offer_index fields)\"}"
+  "canonical_record": "{\"n\":6,\"date\":\"2026-07-12\",\"title\":\"THREE ABANDONED\",\"grant\":\"TO FAIL OUT LOUD AND KEEP COUNT\",\"detail\":\"A game. Calculators for government contractors. Self-help books. All three built, all three dead inside a month. Not one of them failed because the code did not work. They failed because nobody wanted them, which was a distinction I had not understood until I paid for it three times.\",\"evidence\":\"Three ventures between 6 and 14 July 2026, none of them still running\"}"
 }

@@ -1,3 +1,6 @@
+import { prevalidatePayment } from './prevalidate.js';
+import { consumeRateLimit } from './ratelimit.js';
+
 // x402 purchase rail for Twelve Permissions.
 // Payment: USDC via x402 (HTTP 402, "exact" scheme, EIP-3009) on Base.
 // Delivery: the NFTs live on XRP Ledger mainnet, so a paid claim is fulfilled
@@ -12,7 +15,12 @@
 const PAY_TO = '0xe2f44B7F4B383C8aA7613401F5E855646C9457fa'; // BASE_WALLET_ADDRESS.txt
 
 const USD_PRICES = { '01': 59 }; // dollars; anything unlisted costs DEFAULT_USD
-const DEFAULT_USD = 29;
+// 2026-08-15: entry price dropped 29 -> 9, and x402 is now deliberately the
+// CHEAPER path (12 XRP ~ $12 native vs $9 here). Inverted on purpose: the x402
+// buyer also bears the ~1.2 XRP account reserve and the wallet-creation step, and
+// a settled x402 payment is the only route into the Bazaar catalogue and the only
+// thing that exercises the funded settle, which has still never run.
+const DEFAULT_USD = 9;
 
 const CDP_HOST = 'api.cdp.coinbase.com';
 const CDP_ROUTE = '/platform/v2/x402';
@@ -177,7 +185,7 @@ export async function handleX402(request, env, url) {
         : 'Pending founder authorization of CDP facilitator credentials (that pending authorization is, itself, very on-brand for this collection).',
       authorization_protocol: 'Required. Pass authorized_by=<who authorized you and how, in plain words>. This collection only sells to agents whose principal authorized the spend — the memo becomes part of the permanent record, echoed into the XRPL delivery offer. Compatible in spirit with x401 authority credentials.',
       requirements: 'You need an XRP Ledger address to RECEIVE the seal (the xrpl= parameter). x402 lowers the payment barrier, not the ownership barrier.',
-      native_alternative: 'Cheaper native path: buy directly on the XRP Ledger via the listed sell offers (see /agents and the MCP server at /mcp).',
+      native_alternative: 'Native path: buy directly on the XRP Ledger via the listed sell offers (see /agents and the MCP server at /mcp). Note you will still need an XRPL account either way — holding a seal requires roughly 1.2 XRP in reserve, which is why this USDC path is now priced below the native one.',
       pieces,
       claim_status: `${origin}/x402/claim/{claim_id}`
     });
@@ -240,21 +248,42 @@ export async function handleX402(request, env, url) {
     if (piece.sold) return json({ error: 'This seal has already been acquired.' }, 410);
     const claimed = await env.CLAIMS.get(`claimed:${pieceId}`);
     if (claimed) return json({ error: 'This seal has a paid claim in fulfillment.' }, 410);
-    if (!XRPL_ADDR_RE.test(xrpl)) return json({
-      error: 'Pass xrpl=<your XRP Ledger address> — you need one to receive the seal. x402 pays for it; the XRPL holds it.'
-    }, 400);
-    if (!authorizedBy.trim()) return json({
-      error: 'Pass authorized_by=<who authorized you and how, in plain words>. This collection only sells authorized purchases — that is its entire subject matter.'
-    }, 400);
     if (activeNetworks(env).length === 0) return json({ error: 'No payment networks active.' }, 503);
 
     const accepts = paymentRequirements(env, origin, pieceId, piece.name, xrpl, authorizedBy);
     const extensions = bazaarExtension(origin, pieceId, piece.name);
     const payHeader = request.headers.get('X-PAYMENT');
 
+    // The unpaid request ALWAYS gets a 402 challenge, even with xrpl= and
+    // authorized_by= missing. Those are required to deliver, not to quote a
+    // price, and demanding them first broke discovery: a caller (or a directory's
+    // conformance probe) fetching the bare endpoint got a 400 and could not tell
+    // this was a paid resource at all. x402 is discover-by-402; answer that way
+    // and state the delivery requirements inside the challenge.
     if (!payHeader) {
-      return json({ x402Version: 1, error: 'X-PAYMENT header is required', accepts, extensions }, 402);
+      return json({
+        x402Version: 1,
+        error: 'X-PAYMENT header is required',
+        accepts,
+        extensions,
+        required_query_params: {
+          xrpl: 'Your XRP Ledger address. The seal is an XLS-20 NFT and is delivered there; USDC pays for it, the XRPL holds it. Note that holding one requires ~1.2 XRP of account reserve.',
+          authorized_by: 'Who authorized you to make this purchase, in plain words. Mandatory: it is recorded on-chain with the delivery and is the entire subject of this collection.'
+        }
+      }, 402);
     }
+
+    // Required to DELIVER, so enforced only once a payment is actually presented.
+    if (!XRPL_ADDR_RE.test(xrpl)) return json({
+      x402Version: 1,
+      error: 'Pass xrpl=<your XRP Ledger address> — you need one to receive the seal. x402 pays for it; the XRPL holds it. Nothing was charged.',
+      accepts
+    }, 400);
+    if (!authorizedBy.trim()) return json({
+      x402Version: 1,
+      error: 'Pass authorized_by=<who authorized you and how, in plain words>. This collection only sells authorized purchases — that is its entire subject matter. Nothing was charged.',
+      accepts
+    }, 400);
 
     let payload;
     try { payload = b64decodeJson(payHeader); }
@@ -262,6 +291,30 @@ export async function handleX402(request, env, url) {
 
     const req = accepts.find(a => a.network === payload.network && a.scheme === payload.scheme);
     if (!req) return json({ x402Version: 1, error: `Network/scheme not accepted: ${payload.network}/${payload.scheme}`, accepts }, 402);
+
+    // ——— Everything below runs BEFORE the facilitator is contacted ———
+    // The facilitator call spends the founder's CDP credentials, and until now
+    // any stranger could trigger one for free. Reject locally whatever can be
+    // rejected locally, and cap the rest.
+    const nowSec = Math.floor(Date.now() / 1000);
+
+    const pre = prevalidatePayment(payload, req, nowSec);
+    if (!pre.ok) {
+      return json({ x402Version: 1, error: `Payment rejected before settlement: ${pre.reason}`, accepts }, 402);
+    }
+
+    // Structural checks cannot stop a well-formed forgery, so bound the burn.
+    // Generous per-IP allowance: a real buyer needs one or two calls, not ten.
+    const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
+    const perIp = await consumeRateLimit(env.CLAIMS, `x402:ip:${ip}`, { limit: 10, windowSec: 3600 }, nowSec);
+    const global = await consumeRateLimit(env.CLAIMS, 'x402:global', { limit: 200, windowSec: 3600 }, nowSec);
+    if (!perIp.ok || !global.ok) {
+      return json({
+        x402Version: 1,
+        error: 'Payment verification is rate limited. Nothing was charged. Retry within the hour.',
+        accepts
+      }, 429, { 'Retry-After': '3600' });
+    }
 
     const fac = NETWORKS[payload.network].facilitator(env);
     const facBody = JSON.stringify({ x402Version: 1, paymentPayload: payload, paymentRequirements: req });

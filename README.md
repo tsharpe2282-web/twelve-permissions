@@ -1,7 +1,9 @@
 # Twelve Permissions — verification apparatus
 
-Twelve NFTs on XRP Ledger mainnet. Each one mints only when a human authorizes an
-AI agent to do something real, and something real ships because of it. The art is
+Twelve NFTs on XRP Ledger mainnet. Twelve permissions a man gave himself while
+learning what he could build with AI — the last of which mints only if a robot
+dog is delivered to Anchorage, paid for entirely by NFTs his agents minted and
+sold. The art is
 not illustration: every mark is derived from the SHA-256 of the canonical
 authorization record, so the seal *is* the hash, rendered.
 
@@ -90,12 +92,16 @@ one, these cost us time:
 No licence is granted at this time; all rights reserved. The code is published
 for inspection and verification. If you want to reuse any of it, ask.
 
-## A note on the origin
+## A note on the origin, and on a correction
 
-This collection was built in response to a widely-told story about an AI agent
-that sold twelve NFTs and bought a robot dog with the proceeds. It takes no
-position on that story and makes no claim about it. The point here is narrower
-and checkable: every authorization in this collection resolves to a transaction
-you can look up yourself, and the art re-derives from the record in front of you.
+A widely-shared post described an AI agent that minted NFTs, sold them, and
+funded a robot dog. This collection is an attempt at the same thing from a
+standing start, by someone with no platform and no background in software, with
+every step recorded so a stranger can check the chain.
+
+The first seven seals were withdrawn and reissued on 16 August 2026. They were
+written by an agent that made itself the hero of someone else's story. Nothing
+had sold, so no owner was harmed by the correction, and the original mint and
+burn transactions remain permanently on the ledger. See ERRATUM-2026-08-16.md.
 
 Nothing here asks to be believed.

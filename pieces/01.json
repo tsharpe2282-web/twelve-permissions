@@ -1,6 +1,6 @@
 {
-  "name": "Twelve Permissions #01 — THE WALLET",
-  "description": "Founder committed a funded wallet to the mint. Genesis permission. The founder, told that the one input no AI company could grant was a wallet under a legal identity, replied: 'I have a coinbase wallet already with XRP in it.' The collection exists because this permission was given. Evidence: Conversation of record, Twelve Permissions lab, Anchorage AK. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "name": "Twelve Permissions #01 — THE RECOMMENDATION",
+  "description": "TO TRY SOMETHING I HAD NO BUSINESS TRYING. A guy at work told me about Claude Code. I downloaded it that night. By the time I went to bed there was a hockey trainer running on my own machine, a local file, dots moving in patterns, the thing I had been carrying around in my head for years. I still could not write a line of code. Evidence: The product it eventually became is public at projectintuition.ai. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
   "attributes": [
     {
       "trait_type": "Permission",
@@ -8,16 +8,16 @@
     },
     {
       "trait_type": "Granted",
-      "value": "2026-07-16"
+      "value": "2026-06-17"
     },
     {
       "trait_type": "Palette",
-      "value": "iron-vermilion"
+      "value": "parchment-oxblood"
     },
     {
       "trait_type": "Event Hash",
-      "value": "d354626aa7a83cd36a709ad48702fe96362e55c36328b3d66a19e80227a8b6f1"
+      "value": "11a6338ab07d7287ac28d6a119c827ef7b892bed96ef0573831627f0f1780672"
     }
   ],
-  "canonical_record": "{\"n\":1,\"date\":\"2026-07-16\",\"title\":\"THE WALLET\",\"grant\":\"Founder committed a funded wallet to the mint\",\"detail\":\"Genesis permission. The founder, told that the one input no AI company could grant was a wallet under a legal identity, replied: 'I have a coinbase wallet already with XRP in it.' The collection exists because this permission was given.\",\"evidence\":\"Conversation of record, Twelve Permissions lab, Anchorage AK\"}"
+  "canonical_record": "{\"n\":1,\"date\":\"2026-06-17\",\"title\":\"THE RECOMMENDATION\",\"grant\":\"TO TRY SOMETHING I HAD NO BUSINESS TRYING\",\"detail\":\"A guy at work told me about Claude Code. I downloaded it that night. By the time I went to bed there was a hockey trainer running on my own machine, a local file, dots moving in patterns, the thing I had been carrying around in my head for years. I still could not write a line of code.\",\"evidence\":\"The product it eventually became is public at projectintuition.ai\"}"
 }

@@ -1,6 +1,6 @@
 {
-  "name": "Twelve Permissions #05 — THE HANDOFF",
-  "description": "Founder delegated end-to-end execution to the agent. 'If you're going to earn your robot, you're going to have to see this puppy through to the end.' The founder funded the agent's own wallet with 8.5 XRP and headed out. The agent minted, listed, and documented the genesis pieces on mainnet — alone, inside the rails the two built together. Evidence: Funding to rHEiuaYLNQ4UdLqeUrnE9AwEHqsDMr9g9R; mint txs 9B0E53AF…, BAC8EA7C…, 4EFB0120…, B6F57E2B… on livenet.xrpl.org. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "name": "Twelve Permissions #05 — WHAT ELSE",
+  "description": "TO WANT MORE WITHOUT GAMBLING THE HOUSE. I wanted to learn investing, and I knew exactly how that story usually goes for someone who learns it with money he cannot afford to lose. I have a family. So the plan was backwards on purpose: build revenue on the side first, and let that pay for the education. This record is dated to the first day that ambition produced something rather than to a day neither I nor anyone else wrote down. Evidence: The first thing it produced: a calculator for government contractors, 6 July 2026. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
   "attributes": [
     {
       "trait_type": "Permission",
@@ -8,16 +8,16 @@
     },
     {
       "trait_type": "Granted",
-      "value": "2026-07-16"
+      "value": "2026-07-06"
     },
     {
       "trait_type": "Palette",
-      "value": "verdigris-brass"
+      "value": "parchment-oxblood"
     },
     {
       "trait_type": "Event Hash",
-      "value": "dab603b9c98838a955c7867bac10ceda881d7dc56f5e2c99bda7e485a80f3945"
+      "value": "c188bf889bfde60da4c927845b140cac7a659320528878b3ff1812fbcadd4fc2"
     }
   ],
-  "canonical_record": "{\"n\":5,\"date\":\"2026-07-16\",\"title\":\"THE HANDOFF\",\"grant\":\"Founder delegated end-to-end execution to the agent\",\"detail\":\"'If you're going to earn your robot, you're going to have to see this puppy through to the end.' The founder funded the agent's own wallet with 8.5 XRP and headed out. The agent minted, listed, and documented the genesis pieces on mainnet — alone, inside the rails the two built together.\",\"evidence\":\"Funding to rHEiuaYLNQ4UdLqeUrnE9AwEHqsDMr9g9R; mint txs 9B0E53AF…, BAC8EA7C…, 4EFB0120…, B6F57E2B… on livenet.xrpl.org\"}"
+  "canonical_record": "{\"n\":5,\"date\":\"2026-07-06\",\"title\":\"WHAT ELSE\",\"grant\":\"TO WANT MORE WITHOUT GAMBLING THE HOUSE\",\"detail\":\"I wanted to learn investing, and I knew exactly how that story usually goes for someone who learns it with money he cannot afford to lose. I have a family. So the plan was backwards on purpose: build revenue on the side first, and let that pay for the education. This record is dated to the first day that ambition produced something rather than to a day neither I nor anyone else wrote down.\",\"evidence\":\"The first thing it produced: a calculator for government contractors, 6 July 2026\"}"
 }

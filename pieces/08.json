@@ -1,0 +1,23 @@
+{
+  "name": "Twelve Permissions #08 — THE POST",
+  "description": "TO ASK WHY NOT ME. A coworker showed me a post. A well-known man, an AI agent, and a robot dog. Minted, sold, delivered, paid for by the machine. My first thought was that it was very cool. My second was that I wondered whether I could do it too. I am just delusional enough to believe I can. Evidence: A public post describing an agent that minted and sold NFTs and funded a robot. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "attributes": [
+    {
+      "trait_type": "Permission",
+      "value": 8
+    },
+    {
+      "trait_type": "Granted",
+      "value": "2026-07-16"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "iron-vermilion"
+    },
+    {
+      "trait_type": "Event Hash",
+      "value": "5b96af53bdee66563e8d3131ecd076290d03b553c14916355d8056c0f8bca8e2"
+    }
+  ],
+  "canonical_record": "{\"n\":8,\"date\":\"2026-07-16\",\"title\":\"THE POST\",\"grant\":\"TO ASK WHY NOT ME\",\"detail\":\"A coworker showed me a post. A well-known man, an AI agent, and a robot dog. Minted, sold, delivered, paid for by the machine. My first thought was that it was very cool. My second was that I wondered whether I could do it too. I am just delusional enough to believe I can.\",\"evidence\":\"A public post describing an agent that minted and sold NFTs and funded a robot\"}"
+}

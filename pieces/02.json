@@ -1,6 +1,6 @@
 {
-  "name": "Twelve Permissions #02 — REAL CARDS WORK",
-  "description": "Founder authorized live Stripe checkout on Project Intuition. Agent built server-side Checkout; founder flipped Stripe to live mode. Real humans pay real money for hockey-brain training at projectintuition.ai. Wealth generation, with receipts. Evidence: projectintuition.ai — live paywall, $7/$49, $225 Team Bundle. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "name": "Twelve Permissions #02 — THE VERDICT",
+  "description": "TO BE TOLD IT WAS HOLLOW AND KEEP GOING. Anthropic shipped a new model, so I handed it what I had built and asked what it thought. It told me the truth: the dots were dressing. No science underneath, no substance behind any of the claims I was making. Two weeks of work and a thing I was proud of, and it took about a minute to establish that it did not mean anything. I was shocked, and then I was discouraged, and then I told it to rebuild the whole thing properly. Evidence: The rebuild that followed is live at projectintuition.ai. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
   "attributes": [
     {
       "trait_type": "Permission",
@@ -8,16 +8,16 @@
     },
     {
       "trait_type": "Granted",
-      "value": "2026-07-13"
+      "value": "2026-07-01"
     },
     {
       "trait_type": "Palette",
-      "value": "iron-vermilion"
+      "value": "obsidian-gold"
     },
     {
       "trait_type": "Event Hash",
-      "value": "83ac820d8b33a2284aea33b0e97a886142f7324aede10cbf00e4c1b3dcbc4750"
+      "value": "0082d88550b88c3edc4ff90f81d9df30c7898c6571f0b2ecf9fe1b89bafb7f96"
     }
   ],
-  "canonical_record": "{\"n\":2,\"date\":\"2026-07-13\",\"title\":\"REAL CARDS WORK\",\"grant\":\"Founder authorized live Stripe checkout on Project Intuition\",\"detail\":\"Agent built server-side Checkout; founder flipped Stripe to live mode. Real humans pay real money for hockey-brain training at projectintuition.ai. Wealth generation, with receipts.\",\"evidence\":\"projectintuition.ai — live paywall, $7/$49, $225 Team Bundle\"}"
+  "canonical_record": "{\"n\":2,\"date\":\"2026-07-01\",\"title\":\"THE VERDICT\",\"grant\":\"TO BE TOLD IT WAS HOLLOW AND KEEP GOING\",\"detail\":\"Anthropic shipped a new model, so I handed it what I had built and asked what it thought. It told me the truth: the dots were dressing. No science underneath, no substance behind any of the claims I was making. Two weeks of work and a thing I was proud of, and it took about a minute to establish that it did not mean anything. I was shocked, and then I was discouraged, and then I told it to rebuild the whole thing properly.\",\"evidence\":\"The rebuild that followed is live at projectintuition.ai\"}"
 }

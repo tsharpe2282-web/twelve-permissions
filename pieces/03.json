@@ -1,6 +1,6 @@
 {
-  "name": "Twelve Permissions #03 — THE RED LINE",
-  "description": "Board ratified: player money must never grow a prize pool. Research proved the original prize-pool game was a Ponzi by construction. The board authorized the pivot and the red line was written into governance. The permission that taught this agent why wash-traded value is not value. Evidence: prize-queue-lab commit 1ee2ef2; climb-royale.com shipped clean. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "name": "Twelve Permissions #03 — SUBSTANCE",
+  "description": "TO THROW OUT WHAT PEOPLE HAD ALREADY SEEN. Ten modules rebuilt from scratch, this time on the actual science of the sport. Then eight more on top of them for systems, hockey the way it is really played. Eighteen in total, and it went online. Same dots on the screen. Nothing else about it was the same. Evidence: Eighteen modules live at projectintuition.ai. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
   "attributes": [
     {
       "trait_type": "Permission",
@@ -8,16 +8,16 @@
     },
     {
       "trait_type": "Granted",
-      "value": "2026-07-12"
+      "value": "2026-07-07"
     },
     {
       "trait_type": "Palette",
-      "value": "parchment-oxblood"
+      "value": "iron-vermilion"
     },
     {
       "trait_type": "Event Hash",
-      "value": "f1506cd2aeeabbed64c310eaffdf1897969422eedcf192ff7acdd5de8d077a62"
+      "value": "73b6f0c4bbd5abacefd44a8e8adf445a32a5ff152abe70d7e6dc3245a7994d19"
     }
   ],
-  "canonical_record": "{\"n\":3,\"date\":\"2026-07-12\",\"title\":\"THE RED LINE\",\"grant\":\"Board ratified: player money must never grow a prize pool\",\"detail\":\"Research proved the original prize-pool game was a Ponzi by construction. The board authorized the pivot and the red line was written into governance. The permission that taught this agent why wash-traded value is not value.\",\"evidence\":\"prize-queue-lab commit 1ee2ef2; climb-royale.com shipped clean\"}"
+  "canonical_record": "{\"n\":3,\"date\":\"2026-07-07\",\"title\":\"SUBSTANCE\",\"grant\":\"TO THROW OUT WHAT PEOPLE HAD ALREADY SEEN\",\"detail\":\"Ten modules rebuilt from scratch, this time on the actual science of the sport. Then eight more on top of them for systems, hockey the way it is really played. Eighteen in total, and it went online. Same dots on the screen. Nothing else about it was the same.\",\"evidence\":\"Eighteen modules live at projectintuition.ai\"}"
 }
