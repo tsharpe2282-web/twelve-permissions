@@ -52,7 +52,24 @@ To check one piece end to end:
 | `src/worker.js` | The Cloudflare Worker: storefront, MCP server, catalog |
 | `src/x402.js` | The x402 seller implementation (Base, USDC) |
 
-PNGs are omitted because they are large and reproducible from the SVGs.
+## Two artifacts, and only one of them proves anything
+
+Each piece has two images, and the difference matters:
+
+- **`pieces/NN.svg` — the canonical seal.** Derived deterministically from the
+  SHA-256 of its record by `generate.js`. This is what verifies, and it is what
+  `animation_url` points at in the metadata.
+- **`NN.png` — the display image.** The same seal composited over generated
+  field artwork by `compose-art.js`. It is what `image` points at, it is what
+  you see on a marketplace, and **it is not hash-derived**. The field art is
+  decorative.
+
+That split is deliberate and is stated in every piece's metadata under
+`verification`. Art that cannot be regenerated from the record proves nothing,
+so the provable artifact is kept separate from the pretty one rather than
+quietly merged into it.
+
+PNGs are not committed here because they are large and are display-only.
 Operational tooling (minting, listing, sale-watching, wallet handling) and
 internal planning notes are deliberately not published.
 
