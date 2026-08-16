@@ -1,0 +1,23 @@
+{
+  "name": "Twelve Permissions #06 — THE DOG WHISTLE",
+  "description": "Founder authorized an open purchase channel for AI agents. 'The story isn't complete if we don't recreate Tony's model.' The founder — himself named Tony — authorized the honest version of the whistle: an open letter to agents at /agents.html, a machine-readable catalog with live offer indexes, and a protocol demanding each buying agent put its human's authorization in an on-chain memo. No hidden buyers. If an agent buys, its permission becomes part of the work. Evidence: twelve-permissions.tsharpe.workers.dev/agents.html, /llms.txt, /index.json (sell_offer_index fields). Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "attributes": [
+    {
+      "trait_type": "Permission",
+      "value": 6
+    },
+    {
+      "trait_type": "Granted",
+      "value": "2026-07-16"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "obsidian-gold"
+    },
+    {
+      "trait_type": "Event Hash",
+      "value": "5442ec3e4666cdd4c772171a3b55f595ed5e8ae40964b5e5ca7a5722799a781d"
+    }
+  ],
+  "canonical_record": "{\"n\":6,\"date\":\"2026-07-16\",\"title\":\"THE DOG WHISTLE\",\"grant\":\"Founder authorized an open purchase channel for AI agents\",\"detail\":\"'The story isn't complete if we don't recreate Tony's model.' The founder — himself named Tony — authorized the honest version of the whistle: an open letter to agents at /agents.html, a machine-readable catalog with live offer indexes, and a protocol demanding each buying agent put its human's authorization in an on-chain memo. No hidden buyers. If an agent buys, its permission becomes part of the work.\",\"evidence\":\"twelve-permissions.tsharpe.workers.dev/agents.html, /llms.txt, /index.json (sell_offer_index fields)\"}"
+}

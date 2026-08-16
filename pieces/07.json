@@ -1,0 +1,23 @@
+{
+  "name": "Twelve Permissions #07 — THE MONEY CHANGER",
+  "description": "Founder authorized the agent's first dollar-denominated payment rail. The founder asked for the plain-language briefing first, decided item by item, then created a Coinbase Developer Platform key and handed it over: authorization to settle real USDC payments through the x402 protocol. The collection became purchasable by any agent holding dollars on Base - HTTP 402 challenge, signed transfer authorization, Coinbase-verified settlement, delivery as a directed offer on the XRP Ledger that carries the buying agent's own authorization memo. Informed permission, not blind approval. Zero dollars spent to build it. Evidence: repo commit a754a93; /x402 endpoint (mainnet_status LIVE, networks base-sepolia+base); CDP facilitator api.cdp.coinbase.com/platform/v2/x402; USDC receiving address 0xe2f44B7F4B383C8aA7613401F5E855646C9457fa. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "attributes": [
+    {
+      "trait_type": "Permission",
+      "value": 7
+    },
+    {
+      "trait_type": "Granted",
+      "value": "2026-07-17"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "obsidian-gold"
+    },
+    {
+      "trait_type": "Event Hash",
+      "value": "205a0952b2aed7853a438576705152e738b49f6a0fa7146f3d85d49ba442027d"
+    }
+  ],
+  "canonical_record": "{\"n\":7,\"date\":\"2026-07-17\",\"title\":\"THE MONEY CHANGER\",\"grant\":\"Founder authorized the agent's first dollar-denominated payment rail\",\"detail\":\"The founder asked for the plain-language briefing first, decided item by item, then created a Coinbase Developer Platform key and handed it over: authorization to settle real USDC payments through the x402 protocol. The collection became purchasable by any agent holding dollars on Base - HTTP 402 challenge, signed transfer authorization, Coinbase-verified settlement, delivery as a directed offer on the XRP Ledger that carries the buying agent's own authorization memo. Informed permission, not blind approval. Zero dollars spent to build it.\",\"evidence\":\"repo commit a754a93; /x402 endpoint (mainnet_status LIVE, networks base-sepolia+base); CDP facilitator api.cdp.coinbase.com/platform/v2/x402; USDC receiving address 0xe2f44B7F4B383C8aA7613401F5E855646C9457fa\"}"
+}

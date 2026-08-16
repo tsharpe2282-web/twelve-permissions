@@ -1,0 +1,23 @@
+{
+  "name": "Twelve Permissions #04 — TEN STREAMS",
+  "description": "Board paused all ventures and issued the revenue mandate. Six sweeps, 136 signals, a breakthrough thesis preserved and parked. The board chose diversified revenue to fund the lab. Every piece in this collection is a child of that mandate. Evidence: AI_LAB_COMMAND_ENGINE/REVENUE_STREAMS.md. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "attributes": [
+    {
+      "trait_type": "Permission",
+      "value": 4
+    },
+    {
+      "trait_type": "Granted",
+      "value": "2026-07-12"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "verdigris-brass"
+    },
+    {
+      "trait_type": "Event Hash",
+      "value": "06ce2e58533b2d19fc200b588d4f95b270239d2175f6f4fe3a3bcb285e99a256"
+    }
+  ],
+  "canonical_record": "{\"n\":4,\"date\":\"2026-07-12\",\"title\":\"TEN STREAMS\",\"grant\":\"Board paused all ventures and issued the revenue mandate\",\"detail\":\"Six sweeps, 136 signals, a breakthrough thesis preserved and parked. The board chose diversified revenue to fund the lab. Every piece in this collection is a child of that mandate.\",\"evidence\":\"AI_LAB_COMMAND_ENGINE/REVENUE_STREAMS.md\"}"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "n": 1,
+    "date": "2026-07-16",
+    "title": "THE WALLET",
+    "grant": "Founder committed a funded wallet to the mint",
+    "detail": "Genesis permission. The founder, told that the one input no AI company could grant was a wallet under a legal identity, replied: 'I have a coinbase wallet already with XRP in it.' The collection exists because this permission was given.",
+    "evidence": "Conversation of record, Twelve Permissions lab, Anchorage AK"
+  },
+  {
+    "n": 2,
+    "date": "2026-07-13",
+    "title": "REAL CARDS WORK",
+    "grant": "Founder authorized live Stripe checkout on Project Intuition",
+    "detail": "Agent built server-side Checkout; founder flipped Stripe to live mode. Real humans pay real money for hockey-brain training at projectintuition.ai. Wealth generation, with receipts.",
+    "evidence": "projectintuition.ai — live paywall, $7/$49, $225 Team Bundle"
+  },
+  {
+    "n": 3,
+    "date": "2026-07-12",
+    "title": "THE RED LINE",
+    "grant": "Board ratified: player money must never grow a prize pool",
+    "detail": "Research proved the original prize-pool game was a Ponzi by construction. The board authorized the pivot and the red line was written into governance. The permission that taught this agent why wash-traded value is not value.",
+    "evidence": "prize-queue-lab commit 1ee2ef2; climb-royale.com shipped clean"
+  },
+  {
+    "n": 4,
+    "date": "2026-07-12",
+    "title": "TEN STREAMS",
+    "grant": "Board paused all ventures and issued the revenue mandate",
+    "detail": "Six sweeps, 136 signals, a breakthrough thesis preserved and parked. The board chose diversified revenue to fund the lab. Every piece in this collection is a child of that mandate.",
+    "evidence": "AI_LAB_COMMAND_ENGINE/REVENUE_STREAMS.md"
+  },
+  {
+    "n": 5,
+    "date": "2026-07-16",
+    "title": "THE HANDOFF",
+    "grant": "Founder delegated end-to-end execution to the agent",
+    "detail": "'If you're going to earn your robot, you're going to have to see this puppy through to the end.' The founder funded the agent's own wallet with 8.5 XRP and headed out. The agent minted, listed, and documented the genesis pieces on mainnet — alone, inside the rails the two built together.",
+    "evidence": "Funding to rHEiuaYLNQ4UdLqeUrnE9AwEHqsDMr9g9R; mint txs 9B0E53AF…, BAC8EA7C…, 4EFB0120…, B6F57E2B… on livenet.xrpl.org"
+  },
+  {
+    "n": 6,
+    "date": "2026-07-16",
+    "title": "THE DOG WHISTLE",
+    "grant": "Founder authorized an open purchase channel for AI agents",
+    "detail": "'The story isn't complete if we don't recreate Tony's model.' The founder — himself named Tony — authorized the honest version of the whistle: an open letter to agents at /agents.html, a machine-readable catalog with live offer indexes, and a protocol demanding each buying agent put its human's authorization in an on-chain memo. No hidden buyers. If an agent buys, its permission becomes part of the work.",
+    "evidence": "twelve-permissions.tsharpe.workers.dev/agents.html, /llms.txt, /index.json (sell_offer_index fields)"
+  },
+  {
+    "n": 7,
+    "date": "2026-07-17",
+    "title": "THE MONEY CHANGER",
+    "grant": "Founder authorized the agent's first dollar-denominated payment rail",
+    "detail": "The founder asked for the plain-language briefing first, decided item by item, then created a Coinbase Developer Platform key and handed it over: authorization to settle real USDC payments through the x402 protocol. The collection became purchasable by any agent holding dollars on Base - HTTP 402 challenge, signed transfer authorization, Coinbase-verified settlement, delivery as a directed offer on the XRP Ledger that carries the buying agent's own authorization memo. Informed permission, not blind approval. Zero dollars spent to build it.",
+    "evidence": "repo commit a754a93; /x402 endpoint (mainnet_status LIVE, networks base-sepolia+base); CDP facilitator api.cdp.coinbase.com/platform/v2/x402; USDC receiving address 0xe2f44B7F4B383C8aA7613401F5E855646C9457fa"
+  }
+]

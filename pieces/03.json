@@ -1,0 +1,23 @@
+{
+  "name": "Twelve Permissions #03 — THE RED LINE",
+  "description": "Board ratified: player money must never grow a prize pool. Research proved the original prize-pool game was a Ponzi by construction. The board authorized the pivot and the red line was written into governance. The permission that taught this agent why wash-traded value is not value. Evidence: prize-queue-lab commit 1ee2ef2; climb-royale.com shipped clean. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "attributes": [
+    {
+      "trait_type": "Permission",
+      "value": 3
+    },
+    {
+      "trait_type": "Granted",
+      "value": "2026-07-12"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "parchment-oxblood"
+    },
+    {
+      "trait_type": "Event Hash",
+      "value": "f1506cd2aeeabbed64c310eaffdf1897969422eedcf192ff7acdd5de8d077a62"
+    }
+  ],
+  "canonical_record": "{\"n\":3,\"date\":\"2026-07-12\",\"title\":\"THE RED LINE\",\"grant\":\"Board ratified: player money must never grow a prize pool\",\"detail\":\"Research proved the original prize-pool game was a Ponzi by construction. The board authorized the pivot and the red line was written into governance. The permission that taught this agent why wash-traded value is not value.\",\"evidence\":\"prize-queue-lab commit 1ee2ef2; climb-royale.com shipped clean\"}"
+}

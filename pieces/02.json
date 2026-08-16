@@ -1,0 +1,23 @@
+{
+  "name": "Twelve Permissions #02 — REAL CARDS WORK",
+  "description": "Founder authorized live Stripe checkout on Project Intuition. Agent built server-side Checkout; founder flipped Stripe to live mode. Real humans pay real money for hockey-brain training at projectintuition.ai. Wealth generation, with receipts. Evidence: projectintuition.ai — live paywall, $7/$49, $225 Team Bundle. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "attributes": [
+    {
+      "trait_type": "Permission",
+      "value": 2
+    },
+    {
+      "trait_type": "Granted",
+      "value": "2026-07-13"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "iron-vermilion"
+    },
+    {
+      "trait_type": "Event Hash",
+      "value": "83ac820d8b33a2284aea33b0e97a886142f7324aede10cbf00e4c1b3dcbc4750"
+    }
+  ],
+  "canonical_record": "{\"n\":2,\"date\":\"2026-07-13\",\"title\":\"REAL CARDS WORK\",\"grant\":\"Founder authorized live Stripe checkout on Project Intuition\",\"detail\":\"Agent built server-side Checkout; founder flipped Stripe to live mode. Real humans pay real money for hockey-brain training at projectintuition.ai. Wealth generation, with receipts.\",\"evidence\":\"projectintuition.ai — live paywall, $7/$49, $225 Team Bundle\"}"
+}

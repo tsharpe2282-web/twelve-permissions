@@ -1,0 +1,23 @@
+{
+  "name": "Twelve Permissions #01 — THE WALLET",
+  "description": "Founder committed a funded wallet to the mint. Genesis permission. The founder, told that the one input no AI company could grant was a wallet under a legal identity, replied: 'I have a coinbase wallet already with XRP in it.' The collection exists because this permission was given. Evidence: Conversation of record, Twelve Permissions lab, Anchorage AK. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "attributes": [
+    {
+      "trait_type": "Permission",
+      "value": 1
+    },
+    {
+      "trait_type": "Granted",
+      "value": "2026-07-16"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "iron-vermilion"
+    },
+    {
+      "trait_type": "Event Hash",
+      "value": "d354626aa7a83cd36a709ad48702fe96362e55c36328b3d66a19e80227a8b6f1"
+    }
+  ],
+  "canonical_record": "{\"n\":1,\"date\":\"2026-07-16\",\"title\":\"THE WALLET\",\"grant\":\"Founder committed a funded wallet to the mint\",\"detail\":\"Genesis permission. The founder, told that the one input no AI company could grant was a wallet under a legal identity, replied: 'I have a coinbase wallet already with XRP in it.' The collection exists because this permission was given.\",\"evidence\":\"Conversation of record, Twelve Permissions lab, Anchorage AK\"}"
+}

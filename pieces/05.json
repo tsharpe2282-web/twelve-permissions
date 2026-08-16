@@ -1,0 +1,23 @@
+{
+  "name": "Twelve Permissions #05 — THE HANDOFF",
+  "description": "Founder delegated end-to-end execution to the agent. 'If you're going to earn your robot, you're going to have to see this puppy through to the end.' The founder funded the agent's own wallet with 8.5 XRP and headed out. The agent minted, listed, and documented the genesis pieces on mainnet — alone, inside the rails the two built together. Evidence: Funding to rHEiuaYLNQ4UdLqeUrnE9AwEHqsDMr9g9R; mint txs 9B0E53AF…, BAC8EA7C…, 4EFB0120…, B6F57E2B… on livenet.xrpl.org. Deterministic seal: every mark derives from sha256 of the canonical event record; re-run the public generator to verify.",
+  "attributes": [
+    {
+      "trait_type": "Permission",
+      "value": 5
+    },
+    {
+      "trait_type": "Granted",
+      "value": "2026-07-16"
+    },
+    {
+      "trait_type": "Palette",
+      "value": "verdigris-brass"
+    },
+    {
+      "trait_type": "Event Hash",
+      "value": "dab603b9c98838a955c7867bac10ceda881d7dc56f5e2c99bda7e485a80f3945"
+    }
+  ],
+  "canonical_record": "{\"n\":5,\"date\":\"2026-07-16\",\"title\":\"THE HANDOFF\",\"grant\":\"Founder delegated end-to-end execution to the agent\",\"detail\":\"'If you're going to earn your robot, you're going to have to see this puppy through to the end.' The founder funded the agent's own wallet with 8.5 XRP and headed out. The agent minted, listed, and documented the genesis pieces on mainnet — alone, inside the rails the two built together.\",\"evidence\":\"Funding to rHEiuaYLNQ4UdLqeUrnE9AwEHqsDMr9g9R; mint txs 9B0E53AF…, BAC8EA7C…, 4EFB0120…, B6F57E2B… on livenet.xrpl.org\"}"
+}
