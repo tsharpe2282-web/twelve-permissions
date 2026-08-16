@@ -1,0 +1,4 @@
+# This repository asserts byte-for-byte reproduction.
+# Git must never rewrite line endings, or `node generate.js && git status`
+# stops being a valid test on platforms whose native ending differs.
+* -text
