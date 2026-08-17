@@ -1,0 +1,22 @@
+{
+  // Otherwise stateless: no secrets, no assets binding, and the one KV
+  // binding below holds nothing but rate-limit counters (key prefix
+  // "doctor:"), never anything about a caller or a probe target.
+  //
+  // RATE_LIMIT_KV is its OWN dedicated namespace (created 2026-08-17), not
+  // shared with hosting's CLAIMS binding. Reusing CLAIMS was considered and
+  // rejected: CLAIMS holds book-of-record NFT claim/delivery state, and this
+  // is a public, unauthenticated endpoint — ephemeral rate-limit counters
+  // should not share a store with durable claim records when separating
+  // them costs nothing. The "doctor:" key prefix is kept anyway as
+  // belt-and-braces, even though isolation now also comes from the
+  // namespace boundary itself.
+  "name": "x402-doctor",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-01-01",
+  "kv_namespaces": [{
+    "binding": "RATE_LIMIT_KV",
+    "id": "6e286c7770404214aac06e6be756e38c",
+    "preview_id": "ca8ce62bbc724f10972c33ca6d408d8b"
+  }]
+}

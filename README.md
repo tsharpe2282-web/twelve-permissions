@@ -104,6 +104,34 @@ one, these cost us time:
   inside an `accepts` entry. Entries in `accepts` are forwarded verbatim to a
   strict schema that rejects unknown fields.
 
+## Those traps are now a tool: the x402 Doctor
+
+Three of the failures above are checks you can run against your own endpoint,
+so they are — along with thirteen more — in [`doctor/`](doctor/).
+
+**https://x402-doctor.tsharpe.workers.dev**
+
+```bash
+curl -s -X POST https://x402-doctor.tsharpe.workers.dev/probe \
+  -H 'Content-Type: application/json' \
+  -d '{"url":"https://your-service.example/paid-endpoint"}'
+```
+
+It performs the handshake a paying client would — a `GET` with no `X-PAYMENT`
+header — and reports what is wrong with the 402 you answer with, plus a fix for
+each finding. Also an MCP server at `POST /mcp`. Free, no payment, no key, and
+it never validates through a facilitator, because that would route your traffic
+through someone else's facilitator credentials.
+
+Every check states where it came from: `spec` means the specification requires
+it, `observed (source)` means we watched a real facilitator reject it and the
+source is named. See [`doctor/README.md`](doctor/README.md) for the full table
+and [`doctor/SECURITY.md`](doctor/SECURITY.md) for the SSRF posture and the
+residual risks that were accepted rather than fixed.
+
+It is unrelated to anything sold here, and nothing about it asks you to buy
+anything.
+
 ## Licensing
 
 No licence is granted at this time; all rights reserved. The code is published
