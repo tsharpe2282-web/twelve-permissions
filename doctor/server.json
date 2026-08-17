@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.twelvepermissions/x402-doctor",
+  "title": "x402 Doctor",
+  "description": "Diagnose x402 seller endpoints: what is wrong with your 402 challenge, and how to fix it.",
+  "version": "1.0.0",
+  "websiteUrl": "https://x402-doctor.tsharpe.workers.dev",
+  "repository": {
+    "url": "https://github.com/tsharpe2282-web/twelve-permissions",
+    "source": "github",
+    "subfolder": "doctor"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402-doctor.tsharpe.workers.dev/mcp"
+    }
+  ]
+}
