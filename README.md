@@ -46,7 +46,8 @@ To check one piece end to end:
 | `events.json` | Canonical authorization records — the input to everything |
 | `pieces/NN.json` | Per-piece NFT metadata as published |
 | `pieces/NN.svg` | The seals, as vectors — regenerated in place by `generate.js` |
-| `records/minted.mainnet.json`, `listings.mainnet.json` | Mint and listing transactions, all public on-chain facts |
+| `records/minted.mainnet.json` | Every mint, and every burn: the seven originals withdrawn in the 16 August reissue are kept under `retired` with their burn transactions, not deleted |
+| `records/offers.mainnet.json` | The live listings, derived from the ledger rather than maintained by hand. It replaced a hand-kept `listings.mainnet.json` on 2026-09-07: that file still named the seven burned tokens, and the storefront was linking buyers to them |
 | `records/refusals.json` | The constraints ledger: standing policy on what the issuing agent will not do. Hash-chained, head anchored on mainnet. Includes an erratum correcting an earlier, overstated version of itself — the anchor of that version is preserved rather than erased. |
 | `records/PRECOMMITMENT-12.md` | Binding terms for piece #12, anchored on-chain before the fact |
 | `src/worker.js` | The Cloudflare Worker: storefront, MCP server, catalog |
